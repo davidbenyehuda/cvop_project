@@ -1,0 +1,188 @@
+/home/student/cvop_project
+dataset:
+valid 0.txt test 0.txt
+385605 385605 385605
+valid 0.txt test 0.txt
+66126 66126 66126
+train_loader
+epoch:  0  fold:  0
+/home/student/cvop_project/model.py:51: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  x = F.softmax(self.fc3(self.dr(x)))
+/home/student/cvop_project/model.py:56: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y = F.softmax(self.fc6(self.dr(y)))
+[1,  2000] loss: 1.232
+[1,  4000] loss: 1.174
+[1,  6000] loss: 1.166
+validation loss:  1.2833985961843966
+epoch:  1  fold:  0
+[2,  2000] loss: 1.163
+[2,  4000] loss: 1.162
+[2,  6000] loss: 1.160
+validation loss:  1.2775777521862053
+epoch:  2  fold:  0
+[3,  2000] loss: 1.161
+[3,  4000] loss: 1.159
+[3,  6000] loss: 1.159
+validation loss:  1.276834427503368
+epoch:  3  fold:  0
+[4,  2000] loss: 1.158
+[4,  4000] loss: 1.158
+[4,  6000] loss: 1.159
+validation loss:  1.2745227516273927
+epoch:  4  fold:  0
+[5,  2000] loss: 1.157
+[5,  4000] loss: 1.158
+[5,  6000] loss: 1.157
+validation loss:  1.2751716249685454
+epoch:  5  fold:  0
+[6,  2000] loss: 1.156
+[6,  4000] loss: 1.157
+[6,  6000] loss: 1.156
+validation loss:  1.2782851848427055
+epoch:  6  fold:  0
+[7,  2000] loss: 1.155
+[7,  4000] loss: 1.157
+[7,  6000] loss: 1.157
+validation loss:  1.2733317934106352
+epoch:  7  fold:  0
+[8,  2000] loss: 1.155
+[8,  4000] loss: 1.155
+[8,  6000] loss: 1.155
+validation loss:  1.27400343192154
+epoch:  8  fold:  0
+[9,  2000] loss: 1.155
+[9,  4000] loss: 1.155
+[9,  6000] loss: 1.155
+validation loss:  1.2739154125781769
+epoch:  9  fold:  0
+[10,  2000] loss: 1.154
+[10,  4000] loss: 1.154
+[10,  6000] loss: 1.153
+validation loss:  1.2676521404799457
+Finished Training
+dataset:
+valid 0.txt test 0.txt
+385605 385605 385605
+valid 0.txt test 0.txt
+66126 66126 66126
+train_loader
+epoch:  0  fold:  0
+[1,  2000] loss: 1.232
+[1,  4000] loss: 1.174
+[1,  6000] loss: 1.165
+validation loss:  1.2823427395617708
+epoch:  1  fold:  0
+[2,  2000] loss: 1.163
+[2,  4000] loss: 1.160
+[2,  6000] loss: 1.160
+validation loss:  1.276750983421761
+epoch:  2  fold:  0
+[3,  2000] loss: 1.159
+[3,  4000] loss: 1.159
+[3,  6000] loss: 1.159
+validation loss:  1.281199007131145
+epoch:  3  fold:  0
+[4,  2000] loss: 1.158
+[4,  4000] loss: 1.157
+[4,  6000] loss: 1.157
+validation loss:  1.2780462121825154
+epoch:  4  fold:  0
+[5,  2000] loss: 1.156
+[5,  4000] loss: 1.157
+[5,  6000] loss: 1.157
+validation loss:  1.2765024852014832
+epoch:  5  fold:  0
+[6,  2000] loss: 1.157
+[6,  4000] loss: 1.156
+[6,  6000] loss: 1.156
+validation loss:  1.2683396080015246
+epoch:  6  fold:  0
+[7,  2000] loss: 1.156
+[7,  4000] loss: 1.156
+[7,  6000] loss: 1.155
+validation loss:  1.271735245646545
+epoch:  7  fold:  0
+[8,  2000] loss: 1.154
+[8,  4000] loss: 1.155
+[8,  6000] loss: 1.154
+validation loss:  1.272519675398703
+epoch:  8  fold:  0
+[9,  2000] loss: 1.154
+[9,  4000] loss: 1.154
+[9,  6000] loss: 1.153
+validation loss:  1.2710551687550498
+epoch:  9  fold:  0
+[10,  2000] loss: 1.154
+[10,  4000] loss: 1.154
+[10,  6000] loss: 1.153
+validation loss:  1.2735195079209496
+Finished Training
+dataset:
+valid 0.txt test 0.txt
+385605 385605 385605
+valid 0.txt test 0.txt
+66126 66126 66126
+train_loader
+epoch:  0  fold:  0
+[1,  2000] loss: 1.228
+[1,  4000] loss: 1.167
+[1,  6000] loss: 1.160
+validation loss:  1.2806061904019959
+epoch:  1  fold:  0
+[2,  2000] loss: 1.158
+[2,  4000] loss: 1.158
+[2,  6000] loss: 1.158
+validation loss:  1.279294727157578
+epoch:  2  fold:  0
+[3,  2000] loss: 1.156
+[3,  4000] loss: 1.156
+[3,  6000] loss: 1.156
+validation loss:  1.2781641539798714
+epoch:  3  fold:  0
+[4,  2000] loss: 1.154
+[4,  4000] loss: 1.155
+[4,  6000] loss: 1.155
+validation loss:  1.2742355623835522
+epoch:  4  fold:  0
+[5,  2000] loss: 1.155
+[5,  4000] loss: 1.154
+[5,  6000] loss: 1.154
+validation loss:  1.2756958091973798
+epoch:  5  fold:  0
+[6,  2000] loss: 1.153
+[6,  4000] loss: 1.153
+[6,  6000] loss: 1.153
+validation loss:  1.2737574413620527
+epoch:  6  fold:  0
+[7,  2000] loss: 1.153
+[7,  4000] loss: 1.153
+[7,  6000] loss: 1.153
+validation loss:  1.27863064782993
+epoch:  7  fold:  0
+[8,  2000] loss: 1.152
+[8,  4000] loss: 1.153
+[8,  6000] loss: 1.153
+validation loss:  1.276249864230534
+epoch:  8  fold:  0
+[9,  2000] loss: 1.152
+[9,  4000] loss: 1.153
+[9,  6000] loss: 1.152
+validation loss:  1.2719844351423548
+epoch:  9  fold:  0
+[10,  2000] loss: 1.152
+[10,  4000] loss: 1.152
+[10,  6000] loss: 1.152
+Traceback (most recent call last):
+  File "/home/student/cvop_project/model.py", line 271, in <module>
+    train_no_vid(all_train_data,all_nets,weight=weight_value)
+  File "/home/student/cvop_project/model.py", line 208, in train_no_vid
+    torch.save(net.state_dict(),filepath+str(weight)+"/"+str(i)+".pt")
+  File "/anaconda/envs/test2/lib/python3.10/site-packages/torch/serialization.py", line 422, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/anaconda/envs/test2/lib/python3.10/site-packages/torch/serialization.py", line 309, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "/anaconda/envs/test2/lib/python3.10/site-packages/torch/serialization.py", line 287, in __init__
+    super(_open_zipfile_writer_file, self).__init__(torch._C.PyTorchFileWriter(str(name)))
+RuntimeError: Parent directory /home/student/cvop_project/models/0.30000000000000004 does not exist.
+validation loss:  1.270633363516234
+Finished Training

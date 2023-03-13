@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/student/cvop_project/model.py", line 314, in <module>
+    main()
+  File "/home/student/cvop_project/model.py", line 271, in main
+    test_data = VideosDataset2(str(i),all_valid_files[i],all_test_files[i],"test",preload=True,videos_cap=-1)
+UnboundLocalError: local variable 'i' referenced before assignment

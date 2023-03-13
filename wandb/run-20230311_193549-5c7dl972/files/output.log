@@ -1,0 +1,6 @@
+
+/home/student/cvop_project
+Traceback (most recent call last):
+  File "/home/student/cvop_project/model.py", line 253, in <module>
+    for weight_value in np.arange(0,1,0.1):
+NameError: name 'np' is not defined

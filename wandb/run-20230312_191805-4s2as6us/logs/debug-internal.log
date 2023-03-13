@@ -1,0 +1,88 @@
+2023-03-12 19:18:05,902 INFO    StreamThr :316859 [internal.py:wandb_internal():87] W&B internal server running at pid: 316859, started at: 2023-03-12 19:18:05.901471
+2023-03-12 19:18:05,907 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status
+2023-03-12 19:18:05,914 INFO    WriterThread:316859 [datastore.py:open_for_write():85] open: /home/student/cvop_project/wandb/run-20230312_191805-4s2as6us/run-4s2as6us.wandb
+2023-03-12 19:18:05,915 DEBUG   SenderThread:316859 [sender.py:send():336] send: header
+2023-03-12 19:18:05,916 DEBUG   SenderThread:316859 [sender.py:send():336] send: run
+2023-03-12 19:18:05,927 DEBUG   SenderThread:316859 [git.py:repo():40] git repository is invalid
+2023-03-12 19:18:06,308 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: check_version
+2023-03-12 19:18:06,321 INFO    SenderThread:316859 [dir_watcher.py:__init__():219] watching files in: /home/student/cvop_project/wandb/run-20230312_191805-4s2as6us/files
+2023-03-12 19:18:06,321 INFO    SenderThread:316859 [sender.py:_start_run_threads():1078] run started: 4s2as6us with start time 1678641485.898688
+2023-03-12 19:18:06,322 DEBUG   SenderThread:316859 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:18:06,322 INFO    SenderThread:316859 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-12 19:18:06,323 DEBUG   SenderThread:316859 [sender.py:send_request():363] send_request: check_version
+2023-03-12 19:18:06,367 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: run_start
+2023-03-12 19:18:06,372 DEBUG   HandlerThread:316859 [system_info.py:__init__():31] System info init
+2023-03-12 19:18:06,373 DEBUG   HandlerThread:316859 [system_info.py:__init__():46] System info init done
+2023-03-12 19:18:06,373 INFO    HandlerThread:316859 [system_monitor.py:start():183] Starting system monitor
+2023-03-12 19:18:06,374 INFO    HandlerThread:316859 [system_monitor.py:probe():204] Collecting system info
+2023-03-12 19:18:06,374 INFO    SystemMonitor:316859 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-12 19:18:06,376 INFO    SystemMonitor:316859 [interfaces.py:start():187] Started cpu monitoring
+2023-03-12 19:18:06,379 INFO    SystemMonitor:316859 [interfaces.py:start():187] Started disk monitoring
+2023-03-12 19:18:06,381 INFO    SystemMonitor:316859 [interfaces.py:start():187] Started gpu monitoring
+2023-03-12 19:18:06,384 INFO    SystemMonitor:316859 [interfaces.py:start():187] Started memory monitoring
+2023-03-12 19:18:06,387 INFO    SystemMonitor:316859 [interfaces.py:start():187] Started network monitoring
+2023-03-12 19:18:06,393 DEBUG   HandlerThread:316859 [system_info.py:probe():195] Probing system
+2023-03-12 19:18:06,394 DEBUG   HandlerThread:316859 [git.py:repo():40] git repository is invalid
+2023-03-12 19:18:06,394 DEBUG   HandlerThread:316859 [system_info.py:probe():240] Probing system done
+2023-03-12 19:18:06,394 DEBUG   HandlerThread:316859 [system_monitor.py:probe():213] {'os': 'Linux-5.15.0-1034-azure-x86_64-with-glibc2.31', 'python': '3.9.15', 'heartbeatAt': '2023-03-12T17:18:06.393975', 'startedAt': '2023-03-12T17:18:05.883441', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'model.py', 'codePath': 'model.py', 'host': 'cvsa2022w-0010', 'username': 'student', 'executable': '/anaconda/envs/cvop2/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2593.9919999999997, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2593.992, 'min': 0.0, 'max': 0.0}, {'current': 2593.992, 'min': 0.0, 'max': 0.0}, {'current': 2593.992, 'min': 0.0, 'max': 0.0}, {'current': 2593.992, 'min': 0.0, 'max': 0.0}, {'current': 2593.992, 'min': 0.0, 'max': 0.0}, {'current': 2593.992, 'min': 0.0, 'max': 0.0}, {'current': 2593.992, 'min': 0.0, 'max': 0.0}, {'current': 2593.992, 'min': 0.0, 'max': 0.0}, {'current': 2593.992, 'min': 0.0, 'max': 0.0}, {'current': 2593.992, 'min': 0.0, 'max': 0.0}, {'current': 2593.992, 'min': 0.0, 'max': 0.0}, {'current': 2593.992, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 145.1909637451172, 'used': 121.49407958984375}, 'gpu': 'Tesla M60', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla M60', 'memory_total': 8524136448}], 'memory': {'total': 110.0562744140625}}
+2023-03-12 19:18:06,394 INFO    HandlerThread:316859 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-12 19:18:06,395 INFO    HandlerThread:316859 [system_monitor.py:probe():217] Publishing system info
+2023-03-12 19:18:06,395 DEBUG   HandlerThread:316859 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-12 19:18:06,396 DEBUG   HandlerThread:316859 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-12 19:18:06,396 DEBUG   HandlerThread:316859 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-12 19:18:07,332 INFO    Thread-18 :316859 [dir_watcher.py:_on_file_created():278] file/dir created: /home/student/cvop_project/wandb/run-20230312_191805-4s2as6us/files/conda-environment.yaml
+2023-03-12 19:18:07,333 INFO    Thread-18 :316859 [dir_watcher.py:_on_file_created():278] file/dir created: /home/student/cvop_project/wandb/run-20230312_191805-4s2as6us/files/requirements.txt
+2023-03-12 19:18:07,333 INFO    Thread-18 :316859 [dir_watcher.py:_on_file_created():278] file/dir created: /home/student/cvop_project/wandb/run-20230312_191805-4s2as6us/files/wandb-summary.json
+2023-03-12 19:18:08,302 DEBUG   HandlerThread:316859 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-12 19:18:08,305 INFO    HandlerThread:316859 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-12 19:18:08,320 DEBUG   SenderThread:316859 [sender.py:send():336] send: files
+2023-03-12 19:18:08,320 INFO    SenderThread:316859 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-12 19:18:08,323 INFO    Thread-18 :316859 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/student/cvop_project/wandb/run-20230312_191805-4s2as6us/files/conda-environment.yaml
+2023-03-12 19:18:08,330 INFO    Thread-18 :316859 [dir_watcher.py:_on_file_created():278] file/dir created: /home/student/cvop_project/wandb/run-20230312_191805-4s2as6us/files/wandb-metadata.json
+2023-03-12 19:18:08,343 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-12 19:18:08,345 DEBUG   SenderThread:316859 [sender.py:send_request():363] send_request: stop_status
+2023-03-12 19:18:08,458 DEBUG   SenderThread:316859 [sender.py:send():336] send: telemetry
+2023-03-12 19:18:08,818 INFO    wandb-upload_0:316859 [upload_job.py:push():138] Uploaded file /tmp/tmpj19vnie0wandb/uoqrl33s-wandb-metadata.json
+2023-03-12 19:18:09,323 INFO    Thread-18 :316859 [dir_watcher.py:_on_file_created():278] file/dir created: /home/student/cvop_project/wandb/run-20230312_191805-4s2as6us/files/output.log
+2023-03-12 19:18:11,324 INFO    Thread-18 :316859 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/student/cvop_project/wandb/run-20230312_191805-4s2as6us/files/output.log
+2023-03-12 19:18:11,462 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:18:16,463 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:18:21,464 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:18:23,330 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:18:26,465 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:18:28,331 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:18:31,466 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:18:33,332 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:18:36,471 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:18:37,336 INFO    Thread-18 :316859 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/student/cvop_project/wandb/run-20230312_191805-4s2as6us/files/config.yaml
+2023-03-12 19:18:38,333 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:18:41,647 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:18:43,334 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:18:46,648 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:18:48,335 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:18:51,649 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:18:53,337 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:18:56,650 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:18:58,338 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:19:01,651 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:19:03,339 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:19:06,387 DEBUG   SystemMonitor:316859 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-03-12 19:19:06,389 DEBUG   SenderThread:316859 [sender.py:send():336] send: stats
+2023-03-12 19:19:07,391 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:19:08,340 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:19:12,391 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:19:13,341 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:19:17,393 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:19:18,342 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:19:22,394 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:19:23,343 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:19:27,395 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:19:28,344 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:19:32,395 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:19:33,363 INFO    Thread-18 :316859 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/student/cvop_project/wandb/run-20230312_191805-4s2as6us/files/output.log
+2023-03-12 19:19:34,299 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:19:36,391 DEBUG   SenderThread:316859 [sender.py:send():336] send: stats
+2023-03-12 19:19:38,392 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:19:39,301 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:19:43,393 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:19:44,302 DEBUG   HandlerThread:316859 [handler.py:handle_request():144] handle_request: keepalive

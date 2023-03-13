@@ -1,0 +1,15 @@
+
+valid 0.txt test 0.txt
+121086 121086 121009
+/home/student/cvop_project/model.py:51: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  x = F.softmax(self.fc3(self.dr(x)))
+/home/student/cvop_project/model.py:56: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y = F.softmax(self.fc6(self.dr(y)))
+Traceback (most recent call last):
+  File "/home/student/cvop_project/model.py", line 322, in <module>
+    main()
+  File "/home/student/cvop_project/model.py", line 284, in main
+    avg_loss,acc=test_pred(test_loader,net,criterion)
+  File "/home/student/cvop_project/model.py", line 167, in test_pred
+    test_loss += loss.item()
+UnboundLocalError: local variable 'test_loss' referenced before assignment

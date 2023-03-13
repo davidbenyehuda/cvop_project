@@ -1,0 +1,404 @@
+/home/student/cvop_project
+dataset:
+valid 0.txt test 0.txt
+385605 385605 385605
+valid 0.txt test 0.txt
+66126 66126 66126
+train_loader
+epoch:  0  fold:  0
+/home/student/cvop_project/model.py:51: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  x = F.softmax(self.fc3(self.dr(x)))
+/home/student/cvop_project/model.py:56: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y = F.softmax(self.fc6(self.dr(y)))
+[1,  2000] loss: 1.226
+[1,  4000] loss: 1.169
+[1,  6000] loss: 1.163
+validation loss:  1.286455442642566
+epoch:  1  fold:  0
+[2,  2000] loss: 1.160
+[2,  4000] loss: 1.160
+[2,  6000] loss: 1.161
+validation loss:  1.2794628358901816
+epoch:  2  fold:  0
+[3,  2000] loss: 1.158
+[3,  4000] loss: 1.159
+[3,  6000] loss: 1.158
+validation loss:  1.2777915003221316
+epoch:  3  fold:  0
+[4,  2000] loss: 1.158
+[4,  4000] loss: 1.158
+[4,  6000] loss: 1.157
+validation loss:  1.2768468321868482
+epoch:  4  fold:  0
+[5,  2000] loss: 1.156
+[5,  4000] loss: 1.157
+[5,  6000] loss: 1.156
+validation loss:  1.2774330217326402
+epoch:  5  fold:  0
+[6,  2000] loss: 1.155
+[6,  4000] loss: 1.156
+[6,  6000] loss: 1.156
+validation loss:  1.2761771616668258
+epoch:  6  fold:  0
+[7,  2000] loss: 1.156
+[7,  4000] loss: 1.155
+[7,  6000] loss: 1.155
+validation loss:  1.2750813070994511
+epoch:  7  fold:  0
+[8,  2000] loss: 1.155
+[8,  4000] loss: 1.155
+[8,  6000] loss: 1.154
+validation loss:  1.2810114368479302
+epoch:  8  fold:  0
+[9,  2000] loss: 1.154
+[9,  4000] loss: 1.154
+[9,  6000] loss: 1.156
+validation loss:  1.2756268606886874
+epoch:  9  fold:  0
+[10,  2000] loss: 1.154
+[10,  4000] loss: 1.154
+[10,  6000] loss: 1.154
+validation loss:  1.2748231377085126
+Finished Training
+dataset:
+valid 0.txt test 0.txt
+385605 385605 385605
+valid 0.txt test 0.txt
+66126 66126 66126
+train_loader
+epoch:  0  fold:  0
+[1,  2000] loss: 1.237
+[1,  4000] loss: 1.174
+[1,  6000] loss: 1.168
+validation loss:  1.2904911605025169
+epoch:  1  fold:  0
+[2,  2000] loss: 1.164
+[2,  4000] loss: 1.164
+[2,  6000] loss: 1.163
+validation loss:  1.2855318834288207
+epoch:  2  fold:  0
+[3,  2000] loss: 1.162
+[3,  4000] loss: 1.161
+[3,  6000] loss: 1.162
+validation loss:  1.2822221046029023
+epoch:  3  fold:  0
+[4,  2000] loss: 1.161
+[4,  4000] loss: 1.161
+[4,  6000] loss: 1.160
+validation loss:  1.2795845775124643
+epoch:  4  fold:  0
+[5,  2000] loss: 1.159
+[5,  4000] loss: 1.160
+[5,  6000] loss: 1.159
+validation loss:  1.2860867236984075
+epoch:  5  fold:  0
+[6,  2000] loss: 1.157
+[6,  4000] loss: 1.158
+[6,  6000] loss: 1.157
+validation loss:  1.2820288700338027
+epoch:  6  fold:  0
+[7,  2000] loss: 1.155
+[7,  4000] loss: 1.156
+[7,  6000] loss: 1.155
+validation loss:  1.2794131944442395
+epoch:  7  fold:  0
+[8,  2000] loss: 1.155
+[8,  4000] loss: 1.155
+[8,  6000] loss: 1.155
+validation loss:  1.27631946608453
+epoch:  8  fold:  0
+[9,  2000] loss: 1.155
+[9,  4000] loss: 1.154
+[9,  6000] loss: 1.155
+validation loss:  1.278056037379879
+epoch:  9  fold:  0
+[10,  2000] loss: 1.153
+[10,  4000] loss: 1.154
+[10,  6000] loss: 1.154
+validation loss:  1.2772556372721837
+Finished Training
+dataset:
+valid 0.txt test 0.txt
+385605 385605 385605
+valid 0.txt test 0.txt
+66126 66126 66126
+train_loader
+epoch:  0  fold:  0
+[1,  2000] loss: 1.228
+[1,  4000] loss: 1.172
+[1,  6000] loss: 1.165
+validation loss:  1.2820279568260828
+epoch:  1  fold:  0
+[2,  2000] loss: 1.162
+[2,  4000] loss: 1.160
+[2,  6000] loss: 1.160
+validation loss:  1.2801191819475053
+epoch:  2  fold:  0
+[3,  2000] loss: 1.158
+[3,  4000] loss: 1.159
+[3,  6000] loss: 1.159
+validation loss:  1.2794006690527069
+epoch:  3  fold:  0
+[4,  2000] loss: 1.157
+[4,  4000] loss: 1.158
+[4,  6000] loss: 1.157
+validation loss:  1.2779288313836148
+epoch:  4  fold:  0
+[5,  2000] loss: 1.156
+[5,  4000] loss: 1.157
+[5,  6000] loss: 1.157
+validation loss:  1.276179949365686
+epoch:  5  fold:  0
+[6,  2000] loss: 1.156
+[6,  4000] loss: 1.157
+[6,  6000] loss: 1.156
+validation loss:  1.2728006047713687
+epoch:  6  fold:  0
+[7,  2000] loss: 1.155
+[7,  4000] loss: 1.155
+[7,  6000] loss: 1.156
+validation loss:  1.2775016561928754
+epoch:  7  fold:  0
+[8,  2000] loss: 1.155
+[8,  4000] loss: 1.156
+[8,  6000] loss: 1.154
+validation loss:  1.2817861187619444
+epoch:  8  fold:  0
+[9,  2000] loss: 1.155
+[9,  4000] loss: 1.154
+[9,  6000] loss: 1.154
+validation loss:  1.2753653265751999
+epoch:  9  fold:  0
+[10,  2000] loss: 1.154
+[10,  4000] loss: 1.155
+[10,  6000] loss: 1.154
+validation loss:  1.2720081606732117
+Finished Training
+dataset:
+valid 0.txt test 0.txt
+385605 385605 385605
+valid 0.txt test 0.txt
+66126 66126 66126
+train_loader
+epoch:  0  fold:  0
+[1,  2000] loss: 1.225
+[1,  4000] loss: 1.168
+[1,  6000] loss: 1.162
+validation loss:  1.2809015336073575
+epoch:  1  fold:  0
+[2,  2000] loss: 1.158
+[2,  4000] loss: 1.159
+[2,  6000] loss: 1.158
+validation loss:  1.2778511961608607
+epoch:  2  fold:  0
+[3,  2000] loss: 1.156
+[3,  4000] loss: 1.156
+[3,  6000] loss: 1.157
+validation loss:  1.2839689551054625
+epoch:  3  fold:  0
+[4,  2000] loss: 1.155
+[4,  4000] loss: 1.155
+[4,  6000] loss: 1.155
+validation loss:  1.2800601672388368
+epoch:  4  fold:  0
+[5,  2000] loss: 1.154
+[5,  4000] loss: 1.155
+[5,  6000] loss: 1.154
+validation loss:  1.2732186631031146
+epoch:  5  fold:  0
+[6,  2000] loss: 1.153
+[6,  4000] loss: 1.154
+[6,  6000] loss: 1.154
+validation loss:  1.279810431271042
+epoch:  6  fold:  0
+[7,  2000] loss: 1.154
+[7,  4000] loss: 1.153
+[7,  6000] loss: 1.153
+validation loss:  1.2751659287474832
+epoch:  7  fold:  0
+[8,  2000] loss: 1.154
+[8,  4000] loss: 1.152
+[8,  6000] loss: 1.153
+validation loss:  1.2773904245872794
+epoch:  8  fold:  0
+[9,  2000] loss: 1.152
+[9,  4000] loss: 1.153
+[9,  6000] loss: 1.152
+validation loss:  1.2735529147679385
+epoch:  9  fold:  0
+[10,  2000] loss: 1.152
+[10,  4000] loss: 1.151
+[10,  6000] loss: 1.153
+validation loss:  1.2761862173071221
+Finished Training
+dataset:
+valid 0.txt test 0.txt
+385605 385605 385605
+valid 0.txt test 0.txt
+66126 66126 66126
+train_loader
+epoch:  0  fold:  0
+[1,  2000] loss: 1.235
+[1,  4000] loss: 1.174
+[1,  6000] loss: 1.166
+validation loss:  1.2872279944687333
+epoch:  1  fold:  0
+[2,  2000] loss: 1.163
+[2,  4000] loss: 1.162
+[2,  6000] loss: 1.160
+validation loss:  1.281643587454606
+epoch:  2  fold:  0
+[3,  2000] loss: 1.160
+[3,  4000] loss: 1.160
+[3,  6000] loss: 1.161
+validation loss:  1.2785730480686608
+epoch:  3  fold:  0
+[4,  2000] loss: 1.159
+[4,  4000] loss: 1.159
+[4,  6000] loss: 1.159
+validation loss:  1.2782303907654502
+epoch:  4  fold:  0
+[5,  2000] loss: 1.158
+[5,  4000] loss: 1.158
+[5,  6000] loss: 1.159
+validation loss:  1.2773433346121177
+epoch:  5  fold:  0
+[6,  2000] loss: 1.158
+[6,  4000] loss: 1.156
+[6,  6000] loss: 1.158
+validation loss:  1.276378324806575
+epoch:  6  fold:  0
+[7,  2000] loss: 1.157
+[7,  4000] loss: 1.157
+[7,  6000] loss: 1.157
+validation loss:  1.2774748953214237
+epoch:  7  fold:  0
+[8,  2000] loss: 1.157
+[8,  4000] loss: 1.155
+[8,  6000] loss: 1.156
+validation loss:  1.2747636858222564
+epoch:  8  fold:  0
+[9,  2000] loss: 1.155
+[9,  4000] loss: 1.155
+[9,  6000] loss: 1.156
+validation loss:  1.2735423581743148
+epoch:  9  fold:  0
+[10,  2000] loss: 1.155
+[10,  4000] loss: 1.154
+[10,  6000] loss: 1.154
+validation loss:  1.2713553142270912
+Finished Training
+dataset:
+valid 0.txt test 0.txt
+385605 385605 385605
+valid 0.txt test 0.txt
+66126 66126 66126
+train_loader
+epoch:  0  fold:  0
+[1,  2000] loss: 1.234
+[1,  4000] loss: 1.164
+[1,  6000] loss: 1.161
+validation loss:  1.2800041391033268
+epoch:  1  fold:  0
+[2,  2000] loss: 1.159
+[2,  4000] loss: 1.159
+[2,  6000] loss: 1.157
+validation loss:  1.2800210895344644
+epoch:  2  fold:  0
+[3,  2000] loss: 1.157
+[3,  4000] loss: 1.156
+[3,  6000] loss: 1.157
+validation loss:  1.2826527649936639
+epoch:  3  fold:  0
+[4,  2000] loss: 1.156
+[4,  4000] loss: 1.156
+[4,  6000] loss: 1.157
+validation loss:  1.2772871997185786
+epoch:  4  fold:  0
+[5,  2000] loss: 1.155
+[5,  4000] loss: 1.155
+[5,  6000] loss: 1.156
+validation loss:  1.2754230521172574
+epoch:  5  fold:  0
+[6,  2000] loss: 1.155
+[6,  4000] loss: 1.155
+[6,  6000] loss: 1.155
+validation loss:  1.2768593620746693
+epoch:  6  fold:  0
+[7,  2000] loss: 1.154
+[7,  4000] loss: 1.154
+[7,  6000] loss: 1.155
+validation loss:  1.2726647816958694
+epoch:  7  fold:  0
+[8,  2000] loss: 1.154
+[8,  4000] loss: 1.154
+[8,  6000] loss: 1.154
+validation loss:  1.2771132222918984
+epoch:  8  fold:  0
+[9,  2000] loss: 1.154
+[9,  4000] loss: 1.153
+[9,  6000] loss: 1.154
+validation loss:  1.271609335618969
+epoch:  9  fold:  0
+[10,  2000] loss: 1.152
+[10,  4000] loss: 1.155
+[10,  6000] loss: 1.154
+validation loss:  1.2675932093561273
+Finished Training
+dataset:
+valid 0.txt test 0.txt
+385605 385605 385605
+valid 0.txt test 0.txt
+66126 66126 66126
+train_loader
+epoch:  0  fold:  0
+[1,  2000] loss: 1.229
+[1,  4000] loss: 1.169
+[1,  6000] loss: 1.163
+validation loss:  1.2834459024425633
+epoch:  1  fold:  0
+[2,  2000] loss: 1.159
+[2,  4000] loss: 1.159
+[2,  6000] loss: 1.157
+validation loss:  1.2794825684862856
+epoch:  2  fold:  0
+[3,  2000] loss: 1.157
+[3,  4000] loss: 1.157
+[3,  6000] loss: 1.156
+validation loss:  1.2764790099640189
+epoch:  3  fold:  0
+[4,  2000] loss: 1.154
+[4,  4000] loss: 1.156
+[4,  6000] loss: 1.155
+validation loss:  1.2755177395717319
+epoch:  4  fold:  0
+[5,  2000] loss: 1.155
+[5,  4000] loss: 1.155
+[5,  6000] loss: 1.154
+validation loss:  1.2726377654582897
+epoch:  5  fold:  0
+[6,  2000] loss: 1.154
+[6,  4000] loss: 1.155
+[6,  6000] loss: 1.154
+validation loss:  1.2760682666324785
+epoch:  6  fold:  0
+[7,  2000] loss: 1.153
+[7,  4000] loss: 1.153
+[7,  6000] loss: 1.154
+validation loss:  1.2723750508961411
+epoch:  7  fold:  0
+[8,  2000] loss: 1.154
+[8,  4000] loss: 1.153
+[8,  6000] loss: 1.153
+validation loss:  1.277162076426198
+epoch:  8  fold:  0
+[9,  2000] loss: 1.152
+[9,  4000] loss: 1.153
+[9,  6000] loss: 1.154
+validation loss:  1.2721453496980943
+epoch:  9  fold:  0
+[10,  2000] loss: 1.153
+[10,  4000] loss: 1.152
+[10,  6000] loss: 1.153
+validation loss:  1.2724798039264789
+Finished Training

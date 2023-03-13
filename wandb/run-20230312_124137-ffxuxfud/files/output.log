@@ -1,0 +1,61 @@
+dataset:
+valid 0.txt test 0.txt
+385605 385605 385605
+valid 0.txt test 0.txt
+66126 66126 66126
+train_loader
+epoch:  0  fold:  0
+/home/student/cvop_project/model.py:51: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  x = F.softmax(self.fc3(self.dr(x)))
+/home/student/cvop_project/model.py:56: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  y = F.softmax(self.fc6(self.dr(y)))
+[1,  2000] loss: 1.275
+[1,  4000] loss: 1.219
+[1,  6000] loss: 1.208
+validation loss:  1.3137469404670672
+epoch:  1  fold:  0
+[2,  2000] loss: 1.205
+[2,  4000] loss: 1.205
+[2,  6000] loss: 1.204
+validation loss:  1.3089631679440836
+epoch:  2  fold:  0
+[3,  2000] loss: 1.204
+[3,  4000] loss: 1.203
+[3,  6000] loss: 1.202
+validation loss:  1.3068852928436472
+epoch:  3  fold:  0
+[4,  2000] loss: 1.202
+[4,  4000] loss: 1.202
+[4,  6000] loss: 1.202
+validation loss:  1.3054993857036938
+epoch:  4  fold:  0
+[5,  2000] loss: 1.202
+[5,  4000] loss: 1.201
+[5,  6000] loss: 1.202
+validation loss:  1.3054511151645816
+epoch:  5  fold:  0
+[6,  2000] loss: 1.202
+[6,  4000] loss: 1.202
+[6,  6000] loss: 1.200
+validation loss:  1.302773773324328
+epoch:  6  fold:  0
+[7,  2000] loss: 1.200
+[7,  4000] loss: 1.200
+[7,  6000] loss: 1.201
+validation loss:  1.3009394777351468
+epoch:  7  fold:  0
+[8,  2000] loss: 1.201
+[8,  4000] loss: 1.200
+[8,  6000] loss: 1.200
+validation loss:  1.3011224495834262
+epoch:  8  fold:  0
+[9,  2000] loss: 1.199
+[9,  4000] loss: 1.200
+[9,  6000] loss: 1.200
+validation loss:  1.3046300139141267
+epoch:  9  fold:  0
+[10,  2000] loss: 1.199
+[10,  4000] loss: 1.201
+[10,  6000] loss: 1.199
+validation loss:  1.3077810352498835
+Finished Training

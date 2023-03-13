@@ -1,0 +1,12 @@
+2023-03-12 12:23:27,061 INFO    MainThread:54569 [wandb_setup.py:_flush():76] Configure stats pid to 54569
+2023-03-12 12:23:27,061 INFO    MainThread:54569 [wandb_setup.py:_flush():76] Loading settings from /home/student/.config/wandb/settings
+2023-03-12 12:23:27,061 INFO    MainThread:54569 [wandb_setup.py:_flush():76] Loading settings from /home/student/cvop_project/wandb/settings
+2023-03-12 12:23:27,061 INFO    MainThread:54569 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-03-12 12:23:27,061 INFO    MainThread:54569 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'model.py', 'program': '/home/student/cvop_project/model.py'}
+2023-03-12 12:23:27,061 INFO    MainThread:54569 [wandb_init.py:_log_setup():506] Logging user logs to /home/student/cvop_project/wandb/run-20230312_122327-dkvi88hs/logs/debug.log
+2023-03-12 12:23:27,061 INFO    MainThread:54569 [wandb_init.py:_log_setup():507] Logging internal logs to /home/student/cvop_project/wandb/run-20230312_122327-dkvi88hs/logs/debug-internal.log
+2023-03-12 12:23:27,061 INFO    MainThread:54569 [wandb_init.py:init():546] calling init triggers
+2023-03-12 12:23:27,061 INFO    MainThread:54569 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2023-03-12 12:23:27,062 INFO    MainThread:54569 [wandb_init.py:init():597] wandb.init() called when a run is still active
+2023-03-12 12:28:55,684 INFO    MainThread:54569 [wandb_watch.py:watch():51] Watching

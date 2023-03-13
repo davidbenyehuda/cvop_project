@@ -1,0 +1,38 @@
+2023-03-11 21:24:57,378 INFO    MainThread:449984 [wandb_setup.py:_flush():76] Configure stats pid to 449984
+2023-03-11 21:24:57,378 INFO    MainThread:449984 [wandb_setup.py:_flush():76] Loading settings from /home/student/.config/wandb/settings
+2023-03-11 21:24:57,378 INFO    MainThread:449984 [wandb_setup.py:_flush():76] Loading settings from /home/student/cvop_project/wandb/settings
+2023-03-11 21:24:57,378 INFO    MainThread:449984 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-03-11 21:24:57,378 INFO    MainThread:449984 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'model.py', 'program': '/home/student/cvop_project/model.py'}
+2023-03-11 21:24:57,378 INFO    MainThread:449984 [wandb_init.py:_log_setup():506] Logging user logs to /home/student/cvop_project/wandb/run-20230311_212457-ax9mdfhm/logs/debug.log
+2023-03-11 21:24:57,378 INFO    MainThread:449984 [wandb_init.py:_log_setup():507] Logging internal logs to /home/student/cvop_project/wandb/run-20230311_212457-ax9mdfhm/logs/debug-internal.log
+2023-03-11 21:24:57,378 INFO    MainThread:449984 [wandb_init.py:init():546] calling init triggers
+2023-03-11 21:24:57,378 INFO    MainThread:449984 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2023-03-11 21:24:57,378 INFO    MainThread:449984 [wandb_init.py:init():602] starting backend
+2023-03-11 21:24:57,378 INFO    MainThread:449984 [wandb_init.py:init():606] setting up manager
+2023-03-11 21:24:57,380 INFO    MainThread:449984 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-03-11 21:24:57,382 INFO    MainThread:449984 [wandb_init.py:init():613] backend started and connected
+2023-03-11 21:24:57,383 INFO    MainThread:449984 [wandb_init.py:init():701] updated telemetry
+2023-03-11 21:24:57,384 INFO    MainThread:449984 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-11 21:24:57,693 INFO    MainThread:449984 [wandb_run.py:_on_init():2131] communicating current version
+2023-03-11 21:24:57,726 INFO    MainThread:449984 [wandb_run.py:_on_init():2140] got version response 
+2023-03-11 21:24:57,726 INFO    MainThread:449984 [wandb_init.py:init():789] starting run threads in backend
+2023-03-11 21:24:59,486 INFO    MainThread:449984 [wandb_run.py:_console_start():2112] atexit reg
+2023-03-11 21:24:59,486 INFO    MainThread:449984 [wandb_run.py:_redirect():1967] redirect: SettingsConsole.WRAP_RAW
+2023-03-11 21:24:59,486 INFO    MainThread:449984 [wandb_run.py:_redirect():2032] Wrapping output streams.
+2023-03-11 21:24:59,486 INFO    MainThread:449984 [wandb_run.py:_redirect():2057] Redirects installed.
+2023-03-11 21:24:59,487 INFO    MainThread:449984 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-11 21:30:28,968 INFO    MainThread:449984 [wandb_watch.py:watch():51] Watching
+2023-03-11 21:39:21,520 INFO    MainThread:449984 [wandb_watch.py:watch():51] Watching
+2023-03-11 21:48:19,497 INFO    MainThread:449984 [wandb_watch.py:watch():51] Watching
+2023-03-11 21:56:52,908 INFO    MainThread:449984 [wandb_watch.py:watch():51] Watching
+2023-03-11 22:05:24,086 INFO    MainThread:449984 [wandb_watch.py:watch():51] Watching
+2023-03-11 22:14:23,380 INFO    MainThread:449984 [wandb_watch.py:watch():51] Watching
+2023-03-11 22:22:58,571 INFO    MainThread:449984 [wandb_watch.py:watch():51] Watching
+2023-03-11 22:26:16,864 INFO    MainThread:449984 [wandb_run.py:_finish():1852] finishing run michael_david/uncategorized/ax9mdfhm
+2023-03-11 22:26:16,864 INFO    MainThread:449984 [wandb_run.py:_atexit_cleanup():2081] got exitcode: 0
+2023-03-11 22:26:16,865 INFO    MainThread:449984 [wandb_run.py:_restore():2064] restore
+2023-03-11 22:26:16,865 INFO    MainThread:449984 [wandb_run.py:_restore():2070] restore done
+2023-03-11 22:42:06,280 INFO    MainThread:449984 [wandb_run.py:_footer_history_summary_info():3429] rendering history
+2023-03-11 22:42:06,284 INFO    MainThread:449984 [wandb_run.py:_footer_history_summary_info():3461] rendering summary
+2023-03-11 22:42:06,286 INFO    MainThread:449984 [wandb_run.py:_footer_sync_info():3387] logging synced files
